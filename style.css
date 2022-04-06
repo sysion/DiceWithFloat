@@ -1,0 +1,219 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-family: arial;
+	font-size: 62.5%;
+}
+
+body{
+	font-size: 1.6rem;
+	color: rgba(242, 248, 239, 0.5);
+}
+
+.envelope{
+	width: 95%;
+	margin: 2rem auto;
+	padding: 2rem;
+	background-color: #cccccc;
+	overflow: hidden;
+}
+
+.dice{
+	width: 20rem;
+	height: 20rem;
+	padding: 1rem;
+	margin: 1rem;
+	background-color: #fc0000;
+	border-radius: 1rem;
+	position: relative;
+}
+
+.dot{
+	display: block;
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	background-color: #eeeeee;
+}
+
+.one{
+	display: block;
+	float: left;
+}
+
+.onedot{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -2rem;
+	margin-left: -2rem;
+}
+
+.two{
+	display: block;
+	float: left;
+}
+
+.two-bot{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.three{
+	display: block;
+	float: left;
+}
+
+.three-mid{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -2rem;
+	margin-left: -2rem;
+}
+
+.three-bot{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.four{
+	display: block;
+	float: left;
+}
+
+.four-top .first,
+.four-top .second,
+.four-bot .third,
+.four-bot .fourth{
+	float: left;
+}
+
+.four-top .second{
+	float: right;
+}
+
+.four-bot{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.four-bot-34{
+	position: relative;
+}
+
+.four-bot .third{
+	float: right;
+	margin-right: 2rem; 
+}
+
+.five{
+	display: block;
+	float: left;
+}
+
+.five-top .first,
+.five-top .second,
+.five-mid .third{
+	float: left;
+}
+
+.five-top .second{
+	float: right;
+}
+
+.five-mid{
+	position: absolute;
+	top: 50%;
+	margin-top: -2rem;
+	width: 100%;
+}
+
+.five-mid-3{
+	position: relative;
+}
+
+.five-mid .third{
+	position: absolute;
+	left: 50%;
+	margin-left: -3rem;
+}
+
+.five-bot{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.five-bot-45{
+	position: relative;
+}
+
+.five-bot .fourth{
+	float: right;
+	margin-right: 2rem; 
+}
+
+.six{
+	display: block;
+	float: left;
+}
+
+.six-top .first,
+.six-top .second,
+.six-mid .third,
+.six-mid .fourth{
+	float: left;
+}
+
+.six-top .second{
+	float: right;
+}
+
+.six-mid{
+	position: absolute;
+	top: 50%;
+	margin-top: -2rem;
+	width: 100%;
+}
+
+.six-mid-34{
+	position: relative;
+}
+
+.six-mid .third{
+	float: right;
+	margin-right: 2rem; 
+}
+
+.six-bot{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+}
+
+.six-bot-56{
+	position: relative;
+}
+
+.six-bot .fiveth{
+	float: right;
+	margin-right: 2rem; 
+}
